@@ -34,9 +34,9 @@ public class OrangeHrmPageMethod {
 		
 		WaitMethods.wait_for_element_present(OrangeHrmLocators.MyInfoMenu);
 		clickOnElement_Using_JS(OrangeHrmLocators.MyInfoMenu,"MyInfoMenu");
-		enter_text(OrangeHrmLocators.FistNameEditbx,"Venkatesh", "FistNameEditbx");
-		enter_text(OrangeHrmLocators.lastNameEditbx,"Thatha", "lastNameEditbx");
-		enter_text(OrangeHrmLocators.EmployeeIdEditbx, "VIJ2128", "EmployeeIdEditbx");
+		enter_text(OrangeHrmLocators.FistNameEditbx,"Thatha", "FistNameEditbx");
+		enter_text(OrangeHrmLocators.lastNameEditbx,"Venkatesh", "lastNameEditbx");
+		enter_text(OrangeHrmLocators.EmployeeIdEditbx, "VIJ2120", "EmployeeIdEditbx");
 		clickOnElement_Using_JS(OrangeHrmLocators.SaveButton,"SaveButton");
 		WaitMethods.wait_in_seconds(10);
 	}
